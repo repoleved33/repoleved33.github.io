@@ -2,7 +2,7 @@
 layout: post
 title: Github.io Pages 블로그 시작하기
 subtitle : 블로그를 시작하며
-tags: [diary]
+tags: [Diary]
 author: repoleved33
 comments : True
 ---
