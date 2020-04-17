@@ -2,7 +2,7 @@
 layout: post
 title: IntelliJ community 버전에서 Spring Boot 시작하기(1)
 subtitle : 개발환경 구성하기, maven과 gradle
-tags: [Spring, IntelliJ]
+tags: [Spring, IntelliJ, Backend]
 author: repoleved33
 comments : True
 ---
@@ -48,8 +48,9 @@ Project(Gradle/Maven), Language(Java/Kotlin/Groovy), 버전 및 기본정보를 
 <br>
 
 ### Maven과 Gradle
-프로젝트에 필요한 모든 Dependency(종속성)를 리스트 형태로 Maven에게 알려 관리해주는 build tool이다.   
-라이브러리 의존성 관리, 라이브러리 추가 및 버전 동기화를 자동으로 관리해준다.
+프로젝트에 필요한 모든 Dependency(종속성)를 리스트 형태로 알려 관리해주는 build tool이다.   
+- 라이브러리 의존성 관리, 라이브러리 추가 및 버전 동기화를 자동으로 관리 
+- 빌드 자동화 툴로, 자바 소스를 compile하고 pacakge해서 deploy하는 일을 자동화해주는 역할 _~~(+4.17 추가)~~_
 
 ##### Maven
 - pom.xml을 사용해서 익숙하고 정형화된 설정이 가능하나 서로 종속할 경우 xml이 복잡해짐
